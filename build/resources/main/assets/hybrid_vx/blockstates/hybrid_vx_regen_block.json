@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hybrid_vx:block/hybrid_vx_regen_block"
+    }
+  }
+}

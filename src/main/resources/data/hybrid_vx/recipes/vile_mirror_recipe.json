@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "hybrid_vx:vile_flesh"
+    },
+    "b": {
+      "item": "hybrid_vx:vile_bone"
+    },
+    "c": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "hybrid_vx:vile_mirror",
+    "count": 1
+  }
+}

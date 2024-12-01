@@ -1,0 +1,9 @@
+{
+  "parent": "hybrid_vx:custom/crimson_fire_block",
+  "textures": {
+    "all": "hybrid_vx:block/crimson_fire",
+    "particle": "hybrid_vx:block/notexture",
+    "fire": "hybrid_vx:block/crimson_fire"
+  },
+  "render_type": "cutout"
+}

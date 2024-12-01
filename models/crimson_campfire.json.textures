@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "lit_log": "crimson_campfire_log_lit",
+        "log": "crimson_campfire_log",
+        "fire": "crimson_campfire_fire"
+      },
+      "name": "default"
+    }
+  }
+}

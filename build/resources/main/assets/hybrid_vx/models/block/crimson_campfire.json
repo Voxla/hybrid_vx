@@ -1,0 +1,11 @@
+{
+  "parent": "hybrid_vx:custom/crimson_campfire",
+  "textures": {
+    "all": "hybrid_vx:block/crimson_campfire_log",
+    "particle": "hybrid_vx:block/crimson_campfire_log",
+    "lit_log": "hybrid_vx:block/crimson_campfire_log_lit",
+    "log": "hybrid_vx:block/crimson_campfire_log",
+    "fire": "hybrid_vx:block/crimson_campfire_fire"
+  },
+  "render_type": "cutout"
+}

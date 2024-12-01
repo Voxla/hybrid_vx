@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "hybrid_vx:item/vile_blade"
+  }
+}

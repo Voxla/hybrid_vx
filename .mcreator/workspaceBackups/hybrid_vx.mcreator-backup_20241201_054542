@@ -1,0 +1,3949 @@
+{
+  "mod_elements": [
+    {
+      "name": "CrimsonCampfire",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/block/CrimsonCampfireBlock.java",
+          "src/main/resources/assets/hybrid_vx/models/block/crimson_campfire.json",
+          "src/main/resources/assets/hybrid_vx/models/item/crimson_campfire.json",
+          "src/main/resources/assets/hybrid_vx/blockstates/crimson_campfire.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireOnTickUpdate",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonCampfireOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireStates",
+      "type": "blockstates",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/block/crimson_campfire_states_blockstate_0.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonCampfireOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonFlame",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/crimson_flame.json",
+          "src/main/java/net/voxla/hybridvx/item/CrimsonFlameItem.java"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonFire",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/block/crimson_fire.json",
+          "src/main/resources/data/hybrid_vx/loot_tables/blocks/crimson_fire.json",
+          "src/main/java/net/voxla/hybridvx/block/CrimsonFireBlock.java",
+          "src/main/java/net/voxla/hybridvx/block/entity/CrimsonFireBlockEntity.java",
+          "src/main/resources/assets/hybrid_vx/models/item/crimson_fire.json",
+          "src/main/resources/assets/hybrid_vx/blockstates/crimson_fire.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonFlameRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_flame_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonFlameRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireRightClick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonCampfireRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonFireOnTickUpdate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_fire_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonFireOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonFireEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_fire_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonFireEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CrimsonCampfireEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "FearSmoke",
+      "type": "particle",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_smoke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/particle/FearSmokeParticle.java",
+          "src/main/resources/assets/hybrid_vx/particles/fear_smoke.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "FearGlint",
+      "type": "particle",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_glint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/particle/FearGlintParticle.java",
+          "src/main/resources/assets/hybrid_vx/particles/fear_glint.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CrimsonCampfireRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_campfire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/recipes/crimson_campfire_recipe.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CollectCrimsonFlame",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collect_crimson_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/advancements/collect_crimson_flame.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "CustomFireLightningBolt",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_fire_lightning_bolt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CustomFireLightningBoltProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "FearBarOverlay",
+      "type": "overlay",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/FearBarOverlayOverlay.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "FearBarProc1",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_proc_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearBarProc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "FearBarProc2",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_proc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearBarProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "FearBarProc3",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_proc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearBarProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "FearBarProc4",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_proc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearBarProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "FearBarProc5",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_bar_proc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearBarProc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "PanicAttackBarProc",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panic_attack_bar_proc",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/PanicAttackBarProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "LurkerEyeParticle",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lurker_eye_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/particles/lurker_eye_particle.json",
+          "src/main/java/net/voxla/hybridvx/client/particle/LurkerEyeParticleParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VoidDotParticle",
+      "type": "particle",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dot_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/particles/void_dot_particle.json",
+          "src/main/java/net/voxla/hybridvx/client/particle/VoidDotParticleParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VoidGatewayParticle",
+      "type": "particle",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_gateway_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/particle/VoidGatewayParticleParticle.java",
+          "src/main/resources/assets/hybrid_vx/particles/void_gateway_particle.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "FleshBloodDrip",
+      "type": "particle",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_blood_drip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/particle/FleshBloodDripParticle.java",
+          "src/main/resources/assets/hybrid_vx/particles/flesh_blood_drip.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "AmalgamationDeathTimeIsReached",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_death_time_is_reached",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationDeathTimeIsReachedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amalgamation",
+      "type": "animatedentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hybrid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/renderer/AmalgamationRenderer.java",
+          "src/main/java/net/voxla/hybridvx/entity/model/AmalgamationModel.java",
+          "src/main/java/net/voxla/hybridvx/entity/layer/AmalgamationLayer.java",
+          "src/main/java/net/voxla/hybridvx/entity/AmalgamationEntity.java",
+          "src/main/resources/assets/hybrid_vx/models/item/hybrid_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "FearSystem",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearSystemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCom0",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_com_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/SetFearCom0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCom1",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_com_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/SetFearCom1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCom2",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_com_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/SetFearCom2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCom3",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_com_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/SetFearCom3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCom4",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_com_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/SetFearCom4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCommand0",
+      "type": "command",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_command_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetFearCommand0Command.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCommand1",
+      "type": "command",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_command_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetFearCommand1Command.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCommand2",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_command_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetFearCommand2Command.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCommand3",
+      "type": "command",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_command_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetFearCommand3Command.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "SetFearCommand4",
+      "type": "command",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fear_command_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetFearCommand4Command.java"
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "PlayerCanSeeAmalgamProc",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_can_see_amalgam_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/PlayerCanSeeAmalgamProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationEntityDies",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamCanAttackProc",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_can_attack_proc",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamCanAttackProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityAttackedByAmalgamation",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_attacked_by_amalgamation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/EntityAttackedByAmalgamationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamDamage",
+      "type": "damagetype",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/damage_type/amalgam_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "AmalgamChaseMusicPlayer",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_chase_music_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamChaseMusicPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AiProc0",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_proc_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AiProc0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AiProc1",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_proc_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AiProc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AiProc2",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_proc_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AiProc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AiProc3",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_proc_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AiProc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AiProc4",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ai_proc_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AiProc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AmalgamationEntityIsHurt",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationSoundsProc",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_sounds_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationSoundsProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationDistantSoundProc",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_distant_sound_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationDistantSoundProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReduceFearEat",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_fear_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/ReduceFearEatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "ReduceFearFish",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_fear_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/ReduceFearFishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "ReduceFearSleep",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_fear_sleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/ReduceFearSleepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "MidnightLurkerHallucination",
+      "type": "animatedentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_hallucination",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/entity/MidnightLurkerHallucinationEntity.java",
+          "src/main/java/net/voxla/hybridvx/client/renderer/MidnightLurkerHallucinationRenderer.java",
+          "src/main/java/net/voxla/hybridvx/entity/model/MidnightLurkerHallucinationModel.java",
+          "src/main/java/net/voxla/hybridvx/entity/layer/MidnightLurkerHallucinationLayer.java"
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "VoidGatewayHallucination",
+      "type": "animatedentity",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_gateway_hallucination",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/entity/model/VoidGatewayHallucinationModel.java",
+          "src/main/java/net/voxla/hybridvx/entity/VoidGatewayHallucinationEntity.java",
+          "src/main/java/net/voxla/hybridvx/client/renderer/VoidGatewayHallucinationRenderer.java"
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "VoidGatewayHallucinationOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_gateway_hallucination_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/VoidGatewayHallucinationOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "MidnightLurkerHallucinationOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_hallucination_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/MidnightLurkerHallucinationOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "MidnightLurkerHallucinationOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_hallucination_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/MidnightLurkerHallucinationOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "JumpscareOverlay",
+      "type": "overlay",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscareOverlayOverlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash1",
+      "type": "overlay",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash1Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash2",
+      "type": "overlay",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash2Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash3",
+      "type": "overlay",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash3Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash4",
+      "type": "overlay",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash4Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash5",
+      "type": "overlay",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash5Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash6",
+      "type": "overlay",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash6Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash7",
+      "type": "overlay",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash7Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash8",
+      "type": "overlay",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash8Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash9",
+      "type": "overlay",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash9Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlash10",
+      "type": "overlay",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/screens/JumpscarePurpleFlash10Overlay.java"
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow1",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow2",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow3",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow4",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow5",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow6",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow7",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow8",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscareLurkerShow9",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_lurker_show_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscareLurkerShow9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow1",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow2",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow3",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow4",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow5",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow6",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow7",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow8",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow9",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "JumpscarePurpleFlashShow10",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_purple_flash_show_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/JumpscarePurpleFlashShow10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff/Jumpscare"
+    },
+    {
+      "name": "AmalgamChromaticShaderProc",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_chromatic_shader_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamChromaticShaderProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HalluChase",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallu_chase",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/HalluChaseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "AmalgamGrabPlayerProc",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_grab_player_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamGrabPlayerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AI"
+    },
+    {
+      "name": "AmalgamationClimbProc",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_climb_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationClimbProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerDiesNearAmalgam",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_dies_near_amalgam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/PlayerDiesNearAmalgamProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamSpawnTimer",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_spawn_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamSpawnTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamCanSpawn",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_can_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamCanSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamationBoundingBoxScale",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgamation_bounding_box_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamationBoundingBoxScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamSneakProc",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_sneak_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamSneakProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HybridVXRegenBlockOnTickUpdate",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hybrid_vx_regen_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/HybridVXRegenBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "HybridVXRegenBlock",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hybrid_vx_regen_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/block/HybridVXRegenBlockBlock.java",
+          "src/main/resources/assets/hybrid_vx/models/item/hybrid_vx_regen_block.json",
+          "src/main/resources/assets/hybrid_vx/blockstates/hybrid_vx_regen_block.json",
+          "src/main/java/net/voxla/hybridvx/block/entity/HybridVXRegenBlockBlockEntity.java",
+          "src/main/resources/data/hybrid_vx/loot_tables/blocks/hybrid_vx_regen_block.json",
+          "src/main/resources/assets/hybrid_vx/models/block/hybrid_vx_regen_block.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "AmalgamBreakGlassBlockProc",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_break_glass_block_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamBreakGlassBlockProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamBreakGlassPaneProc",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_break_glass_pane_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamBreakGlassPaneProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamBreakOpenDoorProc",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_break_open_door_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamBreakOpenDoorProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MidnightLurkerFootstepHallucinationEntityIsHurt",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_footstep_hallucination_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/MidnightLurkerFootstepHallucinationEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "MidnightLurkerFootstepHallucinationOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_footstep_hallucination_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/MidnightLurkerFootstepHallucinationOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "MidnightLurkerFootstepHallucination",
+      "type": "livingentity",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_lurker_footstep_hallucination",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/renderer/MidnightLurkerFootstepHallucinationRenderer.java",
+          "src/main/java/net/voxla/hybridvx/entity/MidnightLurkerFootstepHallucinationEntity.java"
+        ]
+      },
+      "path": "~/MLStuff"
+    },
+    {
+      "name": "VileBlade",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/VileBladeItem.java",
+          "src/main/resources/assets/hybrid_vx/models/item/vile_blade.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "EntityHitsWithVileBlade",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_hits_with_vile_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/EntityHitsWithVileBladeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileMirror",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_mirror",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/vile_mirror.json",
+          "src/main/java/net/voxla/hybridvx/item/VileMirrorItem.java"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileMirrorItemInHandTick",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_mirror_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/VileMirrorItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileMirrorRightclicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_mirror_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/VileMirrorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileMirrorItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_mirror_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/VileMirrorItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileFlesh",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/vile_flesh.json",
+          "src/main/java/net/voxla/hybridvx/item/VileFleshItem.java"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileBone",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_bone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/vile_bone.json",
+          "src/main/java/net/voxla/hybridvx/item/VileBoneItem.java"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileMirrorRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_mirror_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/recipes/vile_mirror_recipe.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileBladeRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/recipes/vile_blade_recipe.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "VileCreature",
+      "type": "achievement",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vile_creature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/advancements/vile_creature.json"
+        ]
+      },
+      "path": "~/CrimsonFireStuff"
+    },
+    {
+      "name": "HybridLoot",
+      "type": "loottable",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hybrid_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hybrid_vx/loot_tables/entities/hybrid.json"
+        ]
+      }
+    },
+    {
+      "name": "AmalgamUndergroundProc",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_underground_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamUndergroundProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FearEventsHandlerProc",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_events_handler_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/FearEventsHandlerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CameraFear",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_fear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/CameraFearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "RenderMls",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_mls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/RenderMlsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "partialTick",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/FearBar"
+    },
+    {
+      "name": "Panicattackcommand",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panicattackcommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/PanicattackcommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PanicAttackSet",
+      "type": "command",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panic_attack_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/PanicAttackSetCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Grabspawn",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grabspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/GrabspawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grabspawntest",
+      "type": "command",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grabspawntest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/GrabspawntestCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AmalgamConfig",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "SetOneDayPassedHybrid",
+      "type": "command",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_one_day_passed_hybrid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/SetOneDayPassedHybridCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "OneDayPassedProc",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_day_passed_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/OneDayPassedProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmalgamConfigGui",
+      "type": "gui",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/client/gui/AmalgamConfigGuiScreen.java",
+          "src/main/java/net/voxla/hybridvx/network/AmalgamConfigGuiButtonMessage.java",
+          "src/main/java/net/voxla/hybridvx/world/inventory/AmalgamConfigGuiMenu.java"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigResetButton",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_reset_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigResetButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigCancelButton",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_cancel_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigCancelButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigDoneButton",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_done_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigDoneButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigWarningItem",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_warning_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigWarningItemItem.java",
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_warning_item.json"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem1",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem1Item.java",
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_1.json"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem3",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem3Item.java",
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_3.json"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem4",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem4Item.java",
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_4.json"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem5",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_5.json",
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem5Item.java"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem6",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem6Item.java",
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_6.json"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigTooltipItem7",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_tooltip_item_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hybrid_vx/models/item/amalgam_config_tooltip_item_7.json",
+          "src/main/java/net/voxla/hybridvx/item/AmalgamConfigTooltipItem7Item.java"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigCommand",
+      "type": "command",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/command/AmalgamConfigCommandCommand.java"
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigCommandOpen",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_command_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigCommandOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    },
+    {
+      "name": "AmalgamConfigGuiThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalgam_config_gui_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/voxla/hybridvx/procedures/AmalgamConfigGuiThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AmalgamGuiConfig"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "FearMeter",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "PanicAttackTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "FearMeterNaturalTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "FearMeterReduceDaytimeCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "FearMeterPlusNighttimeCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "HasOneDayPassedA",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "AmalgamSpawnTimer",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "PlayerWakesUpTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "VoidGatewayJumpscareTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "PanicAttackType",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "IsDaytimeA",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "AmalgamSpawnChance",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "FearEventsTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "none",
+      "files": [
+        "nostepsound"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "crimson_fire.ambient",
+      "files": [
+        "crimson_fire1",
+        "crimson_fire2",
+        "crimson_fire3"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "crimson_fire.extinguish",
+      "files": [
+        "extinguish_crimson_fire1",
+        "extinguish_crimson_fire2"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "crimson_fire.light",
+      "files": [
+        "light_crimson_fire1",
+        "light_crimson_fire2"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "music.hybrid.chase",
+      "files": [
+        "chasetheme"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.footstep",
+      "files": [
+        "lurker_chasestep1",
+        "lurker_chasestep2",
+        "lurker_chasestep3",
+        "lurker_chasestep4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.ambient",
+      "files": [
+        "hybrid_ambient1",
+        "hybrid_ambient2",
+        "hybrid_ambient3",
+        "hybrid_ambient4",
+        "hybrid_ambient5",
+        "hybrid_ambient7",
+        "hybrid_ambient8"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.chase_scream",
+      "files": [
+        "hybrid_chase_scream1",
+        "hybrid_chase_scream2",
+        "hybrid_chase_scream3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.hurt",
+      "files": [
+        "hybrid_hurt1",
+        "hybrid_hurt2",
+        "hybrid_hurt3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.backing_ambient",
+      "files": [
+        "hybrid_backingambient1",
+        "hybrid_backingambient2",
+        "hybrid_backingambient3",
+        "hybrid_backingambient4",
+        "hybrid_backingambient5"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.chase_start",
+      "files": [
+        "hybrid_chase_start"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.teleport",
+      "files": [
+        "hybrid_teleport"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.chase_end",
+      "files": [
+        "hybrid_chase_end"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.death",
+      "files": [
+        "hybrid_death"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.spawn_mftf_ai",
+      "files": [
+        "hybrid_spawn1_mftf_ai",
+        "hybrid_spawn2_mftf_ai",
+        "hybrid_spawn3_mftf_ai",
+        "hybrid_spawn4_mftf_ai"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.jumpscare",
+      "files": [
+        "hybrid_jumpscare1",
+        "hybrid_jumpscare2",
+        "hybrid_jumpscare3",
+        "hybrid_jumpscare4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.grab_jumpscare",
+      "files": [
+        "hybrid_grab_jumpscare1",
+        "hybrid_grab_jumpscare2",
+        "hybrid_grab_jumpscare3",
+        "hybrid_grab_jumpscare4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.grab_kill",
+      "files": [
+        "hybrid_grab_kill"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.hybrid.scream",
+      "files": [
+        "hybrid_scream1",
+        "hybrid_scream2",
+        "hybrid_scream3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.fear.hal",
+      "files": [
+        "hal4ambient1",
+        "hal4ambient3",
+        "hal4ambient4",
+        "hal4ambient5",
+        "hal4ambient6",
+        "hal4ambient7",
+        "hal4ambient8"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.fear.13",
+      "files": [
+        "13_1",
+        "13_2",
+        "13_3",
+        "13_4",
+        "13_5"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "music.player.panic_attack",
+      "files": [
+        "panic_attack"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.distant.ground",
+      "files": [
+        "amalgam_ambient_ground1",
+        "amalgam_ambient_ground2",
+        "amalgam_ambient_ground3",
+        "amalgam_ambient_ground4",
+        "amalgam_ambient_ground5",
+        "amalgam_ambient_ground6",
+        "amalgam_ambient_ground7",
+        "amalgam_ambient_ground8",
+        "amalgam_ambient_ground9",
+        "amalgam_ambient_ground10",
+        "amalgam_ambient_ground11",
+        "amalgam_ambient_ground12"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.distant.music",
+      "files": [
+        "amalgam_ambient_music1",
+        "amalgam_ambient_music2",
+        "amalgam_ambient_music3",
+        "amalgam_ambient_music4",
+        "amalgam_ambient_music5",
+        "amalgam_ambient_music6",
+        "amalgam_ambient_music7",
+        "amalgam_ambient_music8",
+        "amalgam_ambient_music9",
+        "amalgam_ambient_music10",
+        "amalgam_ambient_music11",
+        "amalgam_ambient_music12",
+        "amalgam_ambient_music13",
+        "amalgam_ambient_music14",
+        "amalgam_ambient_music15",
+        "amalgam_ambient_music17",
+        "amalgam_ambient_music18"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.distant.rumble",
+      "files": [
+        "amalgam_ambient_rumble1",
+        "amalgam_ambient_rumble2",
+        "amalgam_ambient_rumble3",
+        "amalgam_ambient_rumble4",
+        "amalgam_ambient_rumble5",
+        "amalgam_ambient_rumble6"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.distant.wind",
+      "files": [
+        "amalgam_ambient_wind1",
+        "amalgam_ambient_wind2",
+        "amalgam_ambient_wind3",
+        "amalgam_ambient_wind4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "DAMAGE_TYPES:minecraft:bypasses_enchantments": [
+      "CUSTOM:AmalgamDamage"
+    ],
+    "BLOCKS:mod:glass_blocks": [
+      "Blocks.GLASS",
+      "Blocks.TINTED_GLASS",
+      "Blocks.STAINED_GLASS#0",
+      "Blocks.STAINED_GLASS#1",
+      "Blocks.STAINED_GLASS#2",
+      "Blocks.STAINED_GLASS#3",
+      "Blocks.STAINED_GLASS#4",
+      "Blocks.STAINED_GLASS#5",
+      "Blocks.STAINED_GLASS#6",
+      "Blocks.STAINED_GLASS#7",
+      "Blocks.STAINED_GLASS#8",
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#10",
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#12",
+      "Blocks.STAINED_GLASS#13",
+      "Blocks.STAINED_GLASS#14",
+      "Blocks.STAINED_GLASS#15"
+    ],
+    "ITEMS:mod:foodsreducefear": [
+      "Items.CARROT",
+      "Items.APPLE",
+      "Items.BREAD",
+      "Items.MUSHROOM_STEW",
+      "Items.POTATO",
+      "Items.BAKED_POTATO",
+      "Items.PUMPKIN_PIE",
+      "Items.DRIED_KELP",
+      "Items.CAKE",
+      "Items.COOKIE",
+      "Items.MELON",
+      "Items.GLOW_BERRIES",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.BEETROOT_SOUP",
+      "Items.HONEY_BOTTLE"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CrimsonCampfire"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_armor": [
+      "CUSTOM:AmalgamDamage"
+    ],
+    "ITEMS:mod:lightitems": [
+      "Blocks.TORCH",
+      "Blocks.SOUL_TORCH",
+      "Blocks.REDSTONE_TORCH",
+      "Blocks.SHROOMLIGHT",
+      "Blocks.GLOWSTONE",
+      "Blocks.SEA_LANTERN",
+      "Items.LAVA_BUCKET",
+      "Blocks.LIT_PUMPKIN",
+      "Blocks.LANTERN",
+      "Blocks.SOUL_LANTERN",
+      "Blocks.BEACON",
+      "Blocks.END_ROD",
+      "Items.BLAZE_ROD",
+      "Blocks.OCHRE_FROGLIGHT",
+      "Blocks.VERDANT_FROGLIGHT",
+      "Blocks.PEARLESCENT_FROGLIGHT"
+    ],
+    "ITEMS:mod:specialfoodsreducefear": [
+      "Items.GOLDEN_APPLE#0",
+      "Items.GOLDEN_CARROT"
+    ],
+    "BLOCKS:mod:glass_panes": [
+      "Blocks.GLASS_PANE",
+      "Blocks.STAINED_GLASS_PANE#0",
+      "Blocks.STAINED_GLASS_PANE#1",
+      "Blocks.STAINED_GLASS_PANE#2",
+      "Blocks.STAINED_GLASS_PANE#3",
+      "Blocks.STAINED_GLASS_PANE#4",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "Blocks.STAINED_GLASS_PANE#6",
+      "Blocks.STAINED_GLASS_PANE#7",
+      "Blocks.STAINED_GLASS_PANE#8",
+      "Blocks.STAINED_GLASS_PANE#9",
+      "Blocks.STAINED_GLASS_PANE#10",
+      "Blocks.STAINED_GLASS_PANE#11",
+      "Blocks.STAINED_GLASS_PANE#12",
+      "Blocks.STAINED_GLASS_PANE#13",
+      "Blocks.STAINED_GLASS_PANE#14",
+      "Blocks.STAINED_GLASS_PANE#15"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_effects": [
+      "CUSTOM:AmalgamDamage"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.hybrid_vx.crimson_fire": "Crimson Fire",
+      "subtitles.entity.hybrid.spawn_mftf_ai": "",
+      "block.amalgam_vx.crimson_fire": "Crimson Fire",
+      "entity.hybrid_vx.hybrid": "Hybrid",
+      "entity.hybrid_vx.midnight_lurker_hallucination": "Midnight Lurker Hallucination",
+      "subtitles.entity.amalgamation.backing_ambient": "",
+      "item.amalgam_vx.crimson_flame": "Crimson Flame",
+      "item.hybrid_vx.vile_flesh": "Vile Flesh",
+      "gui.hybrid_vx.amalgam_config_gui.chasecheck": "",
+      "subtitles.ambient.distant.ground": "",
+      "subtitles.crimson_fire.light": "",
+      "subtitles.music.hybrid.chase": "",
+      "death.attack.amalgam_damage.item": "%1$s\u0027s skull was crushed by the Hybrid",
+      "subtitles.entity.amalgamation.teleport": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_spawntime_max": "hybrid_spawntime_max",
+      "subtitles.ambient.distant.wind": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_mftf_ai_spawn_sound": "hybrid_mftf_ai_spawnsound",
+      "subtitles.entity.hybrid.grab_jumpscare": "",
+      "subtitles.crimson_fire.ambient": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_spawn_chance": "hybrid_spawn_chance",
+      "subtitles.entity.hybrid.end_chase": "",
+      "item.hybrid_vx.vile_bone": "Vile Bone",
+      "gui.hybrid_vx.amalgam_config_gui.mftfsoundcheck": "",
+      "subtitles.entity.hybrid.jumpscare": "",
+      "subtitles.entity.amalgamation.chase_start": "",
+      "advancements.collect_crimson_flame.title": "Bottled Up",
+      "item.hybrid_vx.vile_mirror": "Vile Mirror",
+      "item.hybrid_vx.amalgam_config_tooltip_item_1": "a random number is generated between min and max for the spawn time. §3the min default is 60 and the max default is 240§f, the spawn numbers are in seconds so set how many seconds you want it to take for the hybrid to spawn on min and max. §6Warning: do not set max time lower than min time otherwise it will cause bugs or crash the game",
+      "subtitles.entity.hybrid.ambient": "",
+      "subtitles.ambient.distant.rumble": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_spawntime_min": "hybrid_spawntime_min",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_config": "Hybrid Config",
+      "item.hybrid_vx.amalgam_config_tooltip_item_6": "the hybrid chase music just toggles on and off the music for when the hybrid is chasing you. §3the default is \"true\" which means the box default is checked",
+      "subtitles.entity.amalgamation.footstep": "",
+      "gui.hybrid_vx.amalgam_config_gui.button_reset": "Reset",
+      "item.hybrid_vx.amalgam_config_tooltip_item_7": "the hybrid mftf ai spawn sound just toggles on and off whether you hear the hybrid spawn when his ai is similar to the mftf. §3the default is \"true\" which means the box default is checked",
+      "item.hybrid_vx.void_gateway_hallucination_spawn_egg": "Void Gateway Hallucination Spawn Egg",
+      "death.attack.amalgam_damage.player": "%1$s\u0027s head was torn off by the Hybrid",
+      "subtitles.entity.hybrid.teleport": "",
+      "gui.hybrid_vx.amalgam_config_gui.mininput": "",
+      "item.hybrid_vx.amalgam_config_tooltip_item_3": "the can have panic attacks just toggles on and off whether you can have panic attacks in the game. §3the default is \"true\" which means the box default is checked",
+      "subtitles.ambient.fear.hal": "",
+      "item.hybrid_vx.amalgam_config_tooltip_item_4": "the hallucination jumpscare just toggles on and off whether you get get jumpscared by the hallucinations. §3the default is \"true\" which means the box default is checked",
+      "item.hybrid_vx.amalgam_config_tooltip_item_5": "a random number is generated between 0 and the number that you can set for the spawn chance, if the number is \u003d to 1 then the hybrid will spawn. §3the default is 2§f, if you want a higher chance of the hybrid spawning set the spawn chance to a lower number, if you want a lower chance for the hybrid to spawn set the spawn chance to a higher number. §6Warning: do not set this number below 1 otherwise it may cause bugs or crash the game",
+      "subtitles.entity.hybrid.hurt": "",
+      "gui.hybrid_vx.amalgam_config_gui.maxinput": "",
+      "subtitles.ambient.distant.music": "",
+      "entity.hybrid_vx.void_gateway_hallucination": "Void Gateway Hallucination",
+      "gui.hybrid_vx.amalgam_config_gui.spawnchance": "",
+      "advancements.vile_creature.title": "Vile Creature",
+      "item.hybrid_vx.midnight_lurker_hallucination_spawn_egg": "Midnight Lurker Hallucination Spawn Egg",
+      "block.hybrid_vx.crimson_campfire": "Crimson Campfire",
+      "block.amalgam_vx.crimson_campfire": "Crimson Campfire",
+      "block.hybrid_vx.hybrid_vx_regen_block": "Hybrid VX Regen Block",
+      "subtitles.entity.amalgamation.hurt": "",
+      "subtitles.entity.hybrid.backing_ambient": "",
+      "subtitles.entity.hybrid.footstep": "",
+      "gui.hybrid_vx.amalgam_config_gui.paniccheck": "",
+      "subtitles.crimson_fire.extinguish": "",
+      "item.hybrid_vx.hybrid_spawn_egg": "Hybrid Spawn Egg",
+      "subtitles.ambient.fear.13": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hallucination_jumpscare": "hallucination_jumpscare",
+      "subtitles.entity.hybrid.chase_end": "",
+      "death.attack.amalgam_damage": "%1$s\u0027s intenstines were ripped out by the Hybrid",
+      "subtitles.entity.hybrid.chase_scream": "",
+      "subtitles.entity.hybrid.scream": "",
+      "subtitles.entity.hybrid.chase_start": "",
+      "gui.hybrid_vx.amalgam_config_gui.button_done": "Done",
+      "subtitles.entity.hybrid.death": "",
+      "item.hybrid_vx.crimson_flame": "Crimson Flame",
+      "subtitles.music.player.panic_attack": "",
+      "subtitles.entity.amalgamation.scream": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_can_have_panic_attacks": "can_have_panic_attacks",
+      "subtitles.music.amalgamation.chase": "",
+      "subtitles.entity.amalgamation.chase_scream": "",
+      "subtitles.entity.amalgamation.death": "",
+      "gui.hybrid_vx.amalgam_config_gui.hallujumpcheck": "",
+      "gui.hybrid_vx.amalgam_config_gui.label_hybrid_chase_music": "hybrid_chase_music",
+      "entity.hybrid_vx.midnight_lurker_footstep_hallucination": "Midnight Lurker Footstep Hallucination",
+      "item.amalgam_vx.amalgamation_spawn_egg": "Amalgamation Spawn Egg",
+      "advancements.vile_creature.descr": "Kill the Hybrid",
+      "gui.hybrid_vx.amalgam_config_gui.button_cancel": "Cancel",
+      "advancements.collect_crimson_flame.descr": "Capture a Crimson Flame in a bottle",
+      "subtitles.entity.hybrid.grab_kill": "",
+      "item.hybrid_vx.amalgam_config_warning_item": "§6Warning: Pressing \"Done\" without setting everything as you want it will result in some things being reset to default and if all the checkboxes are unchecked than they will all be false",
+      "subtitles.entity.amalgamation.ambient": "",
+      "entity.amalgam_vx.amalgamation": "Amalgamation",
+      "item.hybrid_vx.vile_blade": "Vile Blade",
+      "subtitles.none": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CrimsonFireStuff",
+        "children": []
+      },
+      {
+        "name": "FearBar",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "AI",
+        "children": []
+      },
+      {
+        "name": "MLStuff",
+        "children": [
+          {
+            "name": "Jumpscare",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "AmalgamGuiConfig",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hybrid_vx",
+    "modName": "The Hybrid",
+    "version": "1.0.0",
+    "description": "This mod adds a horror entity to Minecraft named the Hybrid along with a couple new items.",
+    "author": "Voxla, Lord0wnage",
+    "websiteURL": "https://www.curseforge.com/members/voxla/projects",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "hybridicon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator, Mod made by Voxla, Directed by Lord0wnage, mob AI based off of the Man from the Fog by M_Productions, Midnight Lurker by Voxla, and Cave Dweller Reimagined by idk_someguy, Schpalrbo, and SiverDX",
+    "modElementsPackage": "net.voxla.hybridvx"
+  },
+  "mcreatorVersion": 202400118518
+}

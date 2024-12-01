@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hybrid_vx:block/notexture",
+    "up": "hybrid_vx:block/notexture",
+    "north": "hybrid_vx:block/notexture",
+    "east": "hybrid_vx:block/notexture",
+    "south": "hybrid_vx:block/notexture",
+    "west": "hybrid_vx:block/notexture",
+    "particle": "hybrid_vx:block/notexture"
+  },
+  "render_type": "cutout"
+}

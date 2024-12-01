@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "hybrid_vx:vile_bone"
+    },
+    "b": {
+      "item": "hybrid_vx:vile_flesh"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hybrid_vx:vile_blade",
+    "count": 1
+  }
+}

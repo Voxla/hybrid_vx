@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "hybrid_vx:crimson_flame"
+    },
+    "c": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "hybrid_vx:crimson_campfire",
+    "count": 1
+  }
+}

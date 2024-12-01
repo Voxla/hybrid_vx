@@ -1,0 +1,138 @@
+{
+  "_fv": 60,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow1"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow2"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow3"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow4"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow5"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow6"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow7"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow8"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ml_hallucination_jumpscare9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpscareLurkerShow9"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": -14,
+          "y": -28
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "JumpscareOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

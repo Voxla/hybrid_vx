@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hybrid_vx:item/crimson_campfire"
+  },
+  "render_type": "translucent"
+}

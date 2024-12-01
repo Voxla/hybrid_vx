@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT License"
+
+[[mods]]
+modId="hybrid_vx"
+version="1.0.0"
+displayName="The Hybrid"
+displayURL="https://www.curseforge.com/members/voxla/projects"
+logoFile="logo.png"
+credits="Created using mod maker MCreator, Mod made by Voxla, Directed by Lord0wnage, mob AI based off of the Man from the Fog by M_Productions, Midnight Lurker by Voxla, and Cave Dweller Reimagined by idk_someguy, Schpalrbo, and SiverDX"
+authors="Voxla, Lord0wnage"
+description="This mod adds a horror entity to Minecraft named the Hybrid along with a couple new items."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.hybrid_vx]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.hybrid_vx]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

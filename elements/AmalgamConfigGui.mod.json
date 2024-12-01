@@ -1,0 +1,355 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 240,
+    "inventoryOffsetX": -2000,
+    "inventoryOffsetY": -2000,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_spawntime_min",
+          "text": {
+            "fixedValue": "hybrid_spawntime_min"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_config",
+          "text": {
+            "fixedValue": "Hybrid Config"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 5
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "mininput",
+          "width": 120,
+          "height": 20,
+          "x": 72,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_spawntime_max",
+          "text": {
+            "fixedValue": "hybrid_spawntime_max"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 59
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "maxinput",
+          "width": 120,
+          "height": 20,
+          "x": 72,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_can_have_panic_attacks",
+          "text": {
+            "fixedValue": "can_have_panic_attacks"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 95
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "paniccheck",
+          "text": "",
+          "x": 72,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hallucination_jumpscare",
+          "text": {
+            "fixedValue": "hallucination_jumpscare"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 131
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "hallujumpcheck",
+          "text": "",
+          "x": 72,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_spawn_chance",
+          "text": {
+            "fixedValue": "hybrid_spawn_chance"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 167
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "spawnchance",
+          "width": 120,
+          "height": 20,
+          "x": 72,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_chase_music",
+          "text": {
+            "fixedValue": "hybrid_chase_music"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 221,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hybrid_mftf_ai_spawn_sound",
+          "text": {
+            "fixedValue": "hybrid_mftf_ai_spawnsound"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 221,
+          "y": 59
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 336,
+          "y": 191
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_done",
+          "text": "Done",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AmalgamConfigDoneButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 309,
+          "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reset",
+          "text": "Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AmalgamConfigResetButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 254,
+          "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cancel",
+          "text": "Cancel",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AmalgamConfigCancelButton"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 193,
+          "y": 215
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "chasecheck",
+          "text": "",
+          "x": 221,
+          "y": 35
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "mftfsoundcheck",
+          "text": "",
+          "x": 221,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 193,
+          "y": 35
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 193,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 94,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 94,
+          "y": 143
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 193,
+          "y": 179
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 243,
+          "y": 35
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 243,
+          "y": 71
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "AmalgamConfigGuiThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 11,
+      "sy": 12,
+      "ox": 11,
+      "oy": 9,
+      "snapOnGrid": true
+    }
+  }
+}

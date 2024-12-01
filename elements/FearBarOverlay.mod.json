@@ -1,0 +1,174 @@
+{
+  "_fv": 60,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearicon5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PanicAttackBarProc"
+          },
+          "anchorPoint": "CENTER",
+          "x": 197,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FearBarProc5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fearbar_overcharge.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PanicAttackBarProc"
+          },
+          "anchorPoint": "CENTER",
+          "x": 189,
+          "y": 200
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Inventory",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

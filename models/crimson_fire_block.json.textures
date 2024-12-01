@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "fire": "crimson_fire"
+      },
+      "name": "default"
+    }
+  }
+}

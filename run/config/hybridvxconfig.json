@@ -1,0 +1,11 @@
+{
+  "hybrid_spawntime_min": 60,
+  "hybrid_spawntime_max": 240,
+  "a random number is generated between min and max for the spawn time, the spawn numbers are in seconds so set how many seconds you want it to take for him to spawn on min and max, WARNING do not make max time lower than min time otherwise it will cause bugs or crash the game": "",
+  "can_have_panic_attacks": true,
+  "hallucination_jumpscare": true,
+  "hybrid_spawn_chance": 2,
+  "if you want a higher chance of the hybrid spawning set the spawn chance to a lower number, if you want a lower chance for the hybrid to spawn set the spawn chance to a higher number, WARNING do not set this number below 1 otherwise it may bug or crash the game": "",
+  "hybrid_chase_music": true,
+  "hybrid_mftf_ai_spawn_sound": true
+}

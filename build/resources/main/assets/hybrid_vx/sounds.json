@@ -1,0 +1,518 @@
+{
+  "none": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:nostepsound",
+        "stream": false
+      }
+    ]
+  },
+  "crimson_fire.ambient": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:crimson_fire1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:crimson_fire2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:crimson_fire3",
+        "stream": false
+      }
+    ]
+  },
+  "crimson_fire.extinguish": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:extinguish_crimson_fire1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:extinguish_crimson_fire2",
+        "stream": false
+      }
+    ]
+  },
+  "crimson_fire.light": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:light_crimson_fire1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:light_crimson_fire2",
+        "stream": false
+      }
+    ]
+  },
+  "music.hybrid.chase": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:chasetheme",
+        "stream": true
+      }
+    ]
+  },
+  "entity.hybrid.footstep": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:lurker_chasestep1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:lurker_chasestep2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:lurker_chasestep3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:lurker_chasestep4",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.ambient": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_ambient1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient5",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient7",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_ambient8",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.chase_scream": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_chase_scream1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_chase_scream2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_chase_scream3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.hurt": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_hurt1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_hurt2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.backing_ambient": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_backingambient1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_backingambient2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_backingambient3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_backingambient4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_backingambient5",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.chase_start": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_chase_start",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.teleport": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_teleport",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.chase_end": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_chase_end",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.death": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.spawn_mftf_ai": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_spawn1_mftf_ai",
+        "stream": true
+      },
+      {
+        "name": "hybrid_vx:hybrid_spawn2_mftf_ai",
+        "stream": true
+      },
+      {
+        "name": "hybrid_vx:hybrid_spawn3_mftf_ai",
+        "stream": true
+      },
+      {
+        "name": "hybrid_vx:hybrid_spawn4_mftf_ai",
+        "stream": true
+      }
+    ]
+  },
+  "entity.hybrid.jumpscare": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_jumpscare1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_jumpscare2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_jumpscare3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_jumpscare4",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.grab_jumpscare": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_grab_jumpscare1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_grab_jumpscare2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_grab_jumpscare3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_grab_jumpscare4",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.grab_kill": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_grab_kill",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hybrid.scream": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hybrid_scream1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_scream2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hybrid_scream3",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.fear.hal": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:hal4ambient1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient5",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient6",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient7",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:hal4ambient8",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.fear.13": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:13_1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:13_2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:13_3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:13_4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:13_5",
+        "stream": false
+      }
+    ]
+  },
+  "music.player.panic_attack": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:panic_attack",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.distant.ground": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground5",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground6",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground7",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground8",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground9",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground10",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground11",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_ground12",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.distant.music": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:amalgam_ambient_music1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music5",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music6",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music7",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music8",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music9",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music10",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music11",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music12",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music13",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music14",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music15",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music17",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_music18",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.distant.rumble": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble4",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble5",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_rumble6",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.distant.wind": {
+    "sounds": [
+      {
+        "name": "hybrid_vx:amalgam_ambient_wind1",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_wind2",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_wind3",
+        "stream": false
+      },
+      {
+        "name": "hybrid_vx:amalgam_ambient_wind4",
+        "stream": false
+      }
+    ]
+  }
+}

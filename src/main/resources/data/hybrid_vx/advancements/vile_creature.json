@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hybrid_vx:vile_bone"
+    },
+    "title": {
+      "translate": "advancements.vile_creature.title"
+    },
+    "description": {
+      "translate": "advancements.vile_creature.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vile_creature_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "hybrid_vx:collect_crimson_flame"
+}

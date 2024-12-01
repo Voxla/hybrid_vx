@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "hybrid_vx:crimson_flame"
+    },
+    "title": {
+      "translate": "advancements.collect_crimson_flame.title"
+    },
+    "description": {
+      "translate": "advancements.collect_crimson_flame.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect_crimson_flame_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hybrid_vx:crimson_flame"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}
